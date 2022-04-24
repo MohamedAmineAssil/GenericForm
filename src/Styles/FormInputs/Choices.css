@@ -1,0 +1,25 @@
+.Choice-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.Choice-container label{
+    margin-bottom: 8px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+
+.Choice-label-aster{
+    color: red;
+    margin-left: 4px;
+}
+
+.error label{
+    color: red;
+}
+
+.error input{
+    border: 1px solid red;
+}

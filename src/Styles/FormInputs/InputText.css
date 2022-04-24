@@ -1,0 +1,28 @@
+.Input-text-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.Input-text-container label{
+    margin-bottom: 8px;
+}
+
+.Input-text-container input{
+    padding: 16px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.Input-text-label-aster{
+    color: red;
+    margin-left: 4px;
+}
+
+.error label{
+    color: red;
+}
+
+.error input{
+    border: 1px solid red;
+}

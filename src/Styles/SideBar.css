@@ -1,0 +1,22 @@
+.SideBar-section-container{
+    width: 20%;
+    border-right: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+.SideBarItems-single-item{
+    padding: 16px 8px;
+    border-bottom: 1px solid #eee;
+    border-left: 4px solid transparent;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.SideBarItems-single-item.active{
+    border-left: 4px solid cornflowerblue;
+}

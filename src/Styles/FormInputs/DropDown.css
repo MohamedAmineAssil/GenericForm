@@ -1,0 +1,28 @@
+.DropDown-text-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.DropDown-text-container label{
+    margin-bottom: 8px;
+}
+
+.DropDown-text-container select{
+    padding: 16px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.DropDown-text-label-aster{
+    color: red;
+    margin-left: 4px;
+}
+
+.error label{
+    color: red;
+}
+
+.error select{
+    border: 1px solid red;
+}
